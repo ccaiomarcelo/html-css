@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    /* 
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc    
+
+    Medidas relativas
+    em, ex, rem, vw, vh, %
+
+    Para medidas de fontes, a W3C recomenda as medidas "em" e "px"
+    16px é geralmente o tamanho normal da fonte nos sites
+
+    16px geralmente é igual a 1em, ou seja, 2em é igual a 32px, ou seja, equivale à porcentagem do tamanho padrão da fonte
+    É recomendável utilizar o "em" porque é bom quando for mostrar em outras telas (celular, tv, relogio, tablet, etc.)
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+    /* Existe como condensar essas configurações com a shorthand
+    A ordem é: 
+    - font-style -> font-weight -> font-size -> font-family
+    */
+}
+
+h2 {
+    font: normal normal 3em Arial, sans-serif;
+}
