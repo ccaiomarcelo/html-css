@@ -1,5 +1,14 @@
 @charset "UTF-8";
  
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Kalam:wght@300;400;700&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Jost';
+    --fonte3: 'Kalam';
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,6 +17,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -17,6 +27,8 @@ header {
 }
 
 header > h1 {
+    font-size: 3em;
+    font-family: var(--fonte2);
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -36,6 +48,8 @@ a:hover {
 }
 
 section {
+    font-size: 2em;
+    font-family: var(--fonte3);
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
