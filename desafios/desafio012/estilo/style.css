@@ -48,12 +48,17 @@ a:hover {
 }
 
 section {
-    font-size: 2em;
+    font-size: 2.1em;
     font-family: var(--fonte3);
+    font-weight: 500;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+}
+
+section > p {
+    padding-bottom: 1.7em;
 }
 
 section.padrao {
@@ -62,13 +67,29 @@ section.padrao {
 }
 
 section.imagem {
+    text-shadow: 1px 1px 0px black;
     background-color: blue;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.603);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
+    padding: 10px;
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.274);
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+section#img01 {
+    background-size: cover;
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img02 {
+    background-size: cover;
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
 }
 
 footer {
